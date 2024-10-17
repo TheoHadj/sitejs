@@ -20,11 +20,14 @@ let input=document.createElement('input');
 let writeInput=document.createElement('h1')
 input.addEventListener('keydown',()=>{
     writeInput.textContent= input.value;
+    localStorage.setItem("input",input.value); 
 })
 
 // input.addEventListener('keyup',()=>{
 //     writeInput.textContent= input.value;
 // })
+
+
 
 app?.append(title);
 app?.append(input);
