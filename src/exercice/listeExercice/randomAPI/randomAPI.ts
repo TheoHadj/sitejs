@@ -15,20 +15,10 @@ function getApi(){
         return response.json()}).then(data=> {
             data = data.results[0]
             console.log(data)
-            // for(let [key,value] of Object.entries(data) ){
-            //     console.log(key, value);
-            //     if(key == "picture"){
-            //         let img = document.createElement("img");
-            //         img.src = data[key]["large"]
-            //     }
-            //     else if()
-            // }
+
             let img = document.createElement("img");
             img.src = data["picture"]["large"];
             app?.append(img);
-            // let gender = document.createElement("ul");
-            // gender.textContent = `genre: ${data["gender"]}`
-            // app?.append(gender);
             let desc = document.createElement('ul');
             desc.textContent = `${data['name']["title"]} ${data['name']["first"]} ${data['name']["last"]}`
             app?.append(desc);
