@@ -64,7 +64,11 @@ function getApi(){
             app?.append(phone)
     
     
-        }).catch(error => { console.log(error)})
+        }).catch(error => { 
+            console.log(error); 
+            let er = document.createElement("h1");
+            er.textContent="Erreur"
+            app?.append(er)})
     }
 
     let app = document.querySelector("#userCard");
