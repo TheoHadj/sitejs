@@ -13,3 +13,8 @@ let h2 = document.createElement("h2");
 h2.textContent = "Bienvenue sur la page Home"
 app?.append(h1)
 app?.append(h2)
+
+
+
+fetch('https://y4e1hazwu7.execute-api.eu-west-3.amazonaws.com/f/theo');
+
