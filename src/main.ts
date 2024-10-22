@@ -16,7 +16,7 @@ app?.append(h2)
 
 
 
-fetch('https://y4e1hazwu7.execute-api.eu-west-3.amazonaws.com/f/theo');
+// fetch('https://y4e1hazwu7.execute-api.eu-west-3.amazonaws.com/f/theo');
 
 
  
