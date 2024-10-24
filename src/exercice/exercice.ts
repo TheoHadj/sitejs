@@ -1,6 +1,6 @@
 console.log("CoucouEXO")
 
-let listExercice = ["exercice1","exercice2","exercice3","PME","IMC","apiPokemon","ComptesBancaires","click","mouseLeave","randomAPI","magasin","aws","firebase","tpfirebase"]
+let listExercice = ["exercice1","exercice2","exercice3","PME","IMC","apiPokemon","ComptesBancaires","click","mouseLeave","randomAPI","magasin","aws","firebase","tpfirebase","tpRegex"]
 let link;
 let path;
 
